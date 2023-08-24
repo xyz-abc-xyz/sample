@@ -12,6 +12,14 @@ h3{
 	color: #77f58c;
 	font-style: italic;
 }
+
+.user{
+	
+	width: 875px;
+}
+.side{
+	width: 150px;
+}
 /* menu section */
 body
 {
