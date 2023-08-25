@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(FOREST_BY_NIHAL_JABIN.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+
+.box img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 20px; /* Center the image */
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-size: 22px;
+    color: black;
+}
+
+p {
+    color: #f49126;
+    margin: 0;
+    padding: 5px 0; /* Added padding for better spacing */
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px; /* Added padding for better input appearance */
+    border: 1px solid #ccc; /* Added a border for inputs */
+    border-radius: 5px; /* Rounded border corners */
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #0097a7;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #069818;
+    display: block; /* Display as block to properly space it from the form */
+    margin-top: 20px; /* Added margin for spacing */
+}
+
+a:hover {
+    color: red;
+}
+.box {
+    background: #38ec74;
+    color: black; /* Changed color to black for better visibility */
+    width: 500px; /* Increased width of the box */
+    margin: auto; /* Center the box horizontally */
+    padding: 50px; /* Adjusted padding for better spacing */
+    box-sizing: border-box;
+    text-align: center; /* Center text content */
+}
+
+/* ... Rest of the CSS code ... */
+
+/* Adjust input width for even distribution */
+/* Style for the checkbox */
+input[type="checkbox"] {
+    margin-right: 0px;
+}
+
+/* Style for the label */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+}
