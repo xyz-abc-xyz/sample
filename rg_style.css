@@ -64,7 +64,7 @@ a:hover {
     color: red;
 }
 .box {
-    background: #38ec74;
+    background: whitesmoke;
     color: black; /* Changed color to black for better visibility */
     width: 500px; /* Increased width of the box */
     margin: auto; /* Center the box horizontally */
