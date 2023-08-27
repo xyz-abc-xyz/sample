@@ -5,12 +5,74 @@ body {
     background-size: cover;
     font-family: sans-serif;
 }
+.menu-bar
+{
+	background: rgb(0,100,0);
+	text-align: center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li
+{
+	width: 110px;
+	margin: 10px;
+	padding: 10px;
 
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background: #2bab0d;
+	border-radius: 3px;
+}
+.menu-bar .fa{
+	margin-right: 8px;
+}
+.sub-menu-1
+{
+	display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul 
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+border-bottom: none;
+}
 .header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d8d3d3;
+    background-color: #f0f0f0;
     padding: 20px;
   }
 .header img {
@@ -21,7 +83,6 @@ body {
 	color: rgb(7, 190, 7);
 	text-align: center;
 }
-
 .box img {
     width: 100px;
     display: block;
@@ -42,14 +103,16 @@ p {
 }
 
 input {
-    width: 100%;
+    width: 500px;
     margin-bottom: 10px;
     padding: 10px; /* Added padding for better input appearance */
     border: 1px solid #ccc; /* Added a border for inputs */
     border-radius: 5px; /* Rounded border corners */
     font-size: 16px;
 }
-
+{
+    
+}
 input[type="submit"] {
     border: none;
     outline: none;
@@ -78,9 +141,9 @@ a:hover {
     color: red;
 }
 .box {
-    background: whitesmoke;
+    background:rgb(168, 252, 168);
     color: black; /* Changed color to black for better visibility */
-    width: 500px; /* Increased width of the box */
+    width: 1000px; /* Increased width of the box */
     margin: auto; /* Center the box horizontally */
     padding: 50px; /* Adjusted padding for better spacing */
     box-sizing: border-box;
