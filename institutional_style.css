@@ -1,0 +1,23 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h6 {
+    text-align: center;
+    color: rgb(252, 36, 36);
+    background-color: rgb(190, 184, 184);
+    text-overflow: clip;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+header {
+    background-color: rgb(7, 190, 7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
