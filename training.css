@@ -1,0 +1,39 @@
+/* Reset some default styles */
+body, h1, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the main table */
+.main-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.main-table th, .main-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-table th {
+    background-color: #f2f2f2;
+}
+
+/* Style for the detailed table */
+.details-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.details-table th, .details-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.details-table th {
+    background-color: #f2f2f2;
+}
